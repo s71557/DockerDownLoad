@@ -6,7 +6,7 @@ on:
       docker_images:
         description: '请填写docker镜像名称,多个用英文逗号分开'
         required: true
-        default: 'alpine:latest,alpine/curl,busybox:stable-glibc'
+        default: 'mlikiowa/napcat-docker:latest,youshandefeiyang/allinone,whyour/qinglong:latest,a76yyyy/qiandao:20250129,ht944/rabbitpro:latest'
 
 jobs:
   pull_and_package:

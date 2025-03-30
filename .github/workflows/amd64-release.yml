@@ -6,7 +6,7 @@ on:
       docker_images:
         description: '请填写docker镜像名称,多个用英文逗号分开'
         required: true
-        default: 'mlikiowa/napcat-docker:latest,youshandefeiyang/allinone,whyour/qinglong:latest,a76yyyy/qiandao:20250129,ht944/rabbitpro:latest'
+        default: 'whyour/qinglong:latest,ht944/rabbitpro:latest,xia1307/cloud189-auto-save:latest,jiangrui1994/cloudsaver:latest'
 
 jobs:
   pull_and_package:
